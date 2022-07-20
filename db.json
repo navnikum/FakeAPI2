@@ -1,141 +1,64 @@
 {
-  "data": {
-    "pairs": [
-      {
-        "request": {
-          "path": [
-            {
-              "matcher": "exact",
-              "value": "/fscmUI/redwood/service"
-            }
-          ],
-          "method": [
-            {
-              "matcher": "exact",
-              "value": "GET"
-            }
-          ],
-          "destination": [
-            {
-              "matcher": "exact",
-              "value": "fuscdrmsmc359-fa-ext.us.oracle.com"
-            }
-          ],
-          "scheme": [
-            {
-              "matcher": "exact",
-              "value": "https"
-            }
-          ],
-          "body": [
-            {
-              "matcher": "exact",
-              "value": ""
-            }
-          ]
-        },
-        "response": {
-          "status": 302,
-          "body": "\u003c!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"\u003e\n\u003chtml\u003e\u003chead\u003e\n\u003ctitle\u003e302 Found\u003c/title\u003e\n\u003c/head\u003e\u003cbody\u003e\n\u003ch1\u003eFound\u003c/h1\u003e\n\u003cp\u003eThe document has moved \u003ca href=\"https://fuscdrmsmc359-login.us.oracle.com:443/oam/server/obrareq.cgi?encquery%3DOXb%2FAUK0c47z3XGkuAdr0lsWbZ6V7gVOvQx9HzmBPA2mQfYppebcMQp04DTDJczKD0n9%2FIW8bUaDQRZ1%2FA9fsKK9cFAedZ4IKkZJcH7NSwAIEm8MMT9E9ys3IzKaBbknAeXOIzdQkLC1RQJq0kEpSGzE7opcP3gpUCSunwriII5bw2vqqlJjS9iDopYVCC7kNFgikunX56vZ803orgMyTzGU%2BH8oun8oFeDnh5BcaY%2BKhgNJplmrfU764eGn8oO37iaRCr%2FUtq5JEPLO0tt3B6OrHj6KalrMH7lVHk9e0k7%2BM214ByXc4qr0bYgZFrJyL24mdVP2ed5WsdfhnF4KtVT4K5DFnxGmr9Log%2FXwX%2Fg%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3D925a61f403a65b14c1ebc799e0ba87271505c0b3\u0026amp;ECID-Context=1.005rodRWsWm1nZk_GxO5yf0000RI001MoQ%3BkXjE\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003c/body\u003e\u003c/html\u003e\n",
-          "encodedBody": false,
-          "headers": {
-            "Connection": ["Keep-Alive"],
-            "Content-Length": ["815"],
-            "Content-Type": ["text/html; charset=iso-8859-1"],
-            "Date": ["Wed, 18 May 2022 14:48:59 GMT"],
-            "Hoverfly": ["Was-Here"],
-            "Keep-Alive": ["timeout=61, max=100"],
-            "Location": [
-              "https://fuscdrmsmc359-login.us.oracle.com:443/oam/server/obrareq.cgi?encquery%3DOXb%2FAUK0c47z3XGkuAdr0lsWbZ6V7gVOvQx9HzmBPA2mQfYppebcMQp04DTDJczKD0n9%2FIW8bUaDQRZ1%2FA9fsKK9cFAedZ4IKkZJcH7NSwAIEm8MMT9E9ys3IzKaBbknAeXOIzdQkLC1RQJq0kEpSGzE7opcP3gpUCSunwriII5bw2vqqlJjS9iDopYVCC7kNFgikunX56vZ803orgMyTzGU%2BH8oun8oFeDnh5BcaY%2BKhgNJplmrfU764eGn8oO37iaRCr%2FUtq5JEPLO0tt3B6OrHj6KalrMH7lVHk9e0k7%2BM214ByXc4qr0bYgZFrJyL24mdVP2ed5WsdfhnF4KtVT4K5DFnxGmr9Log%2FXwX%2Fg%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3D925a61f403a65b14c1ebc799e0ba87271505c0b3\u0026ECID-Context=1.005rodRWsWm1nZk_GxO5yf0000RI001MoQ%3BkXjE"
-            ],
-            "Referrer-Policy": ["same-origin"],
-            "Set-Cookie": [
-              "OAMAuthnHintCookie=0@1652885339; httponly; secure; samesite=none; path=/; domain=.oracle.com",
-              "OAMRequestContext_fuscdrmsmc359-fa-ext.us.oracle.com_443_4e3567=N5guPBPIaJpZr2x9U6wJIQ==;max-age=300; httponly; secure; samesite=none; path=/"
-            ],
-            "X-Content-Type-Options": ["nosniff"]
-          },
-          "templated": false
-        }
-      },
-      {
-        "request": {
-          "path": [
-            {
-              "matcher": "exact",
-              "value": "/obrar.cgi"
-            }
-          ],
-          "method": [
-            {
-              "matcher": "exact",
-              "value": "GET"
-            }
-          ],
-          "destination": [
-            {
-              "matcher": "exact",
-              "value": "fuscdrmsmc359-fa-ext.us.oracle.com"
-            }
-          ],
-          "scheme": [
-            {
-              "matcher": "exact",
-              "value": "https"
-            }
-          ],
-          "body": [
-            {
-              "matcher": "exact",
-              "value": ""
-            }
-          ],
-          "query": {
-            "cksum": [
+    "data": {
+      "pairs": [
+        {
+          "request": {
+            "path": [
               {
                 "matcher": "exact",
-                "value": "7e55e6f66fe9042c4111a8c0ada6f25b24c8f8c8"
+                "value": "/fscmUI/redwood/service"
               }
             ],
-            "encreply": [
+            "method": [
               {
                 "matcher": "exact",
-                "value": "butkqKYkg6/n4G6MfeIXilMuO78VwMDYlrHRxKTrKlFcBDYZMMaE7wAwLKivBxrpIcOLChXDtX2SnaLjz/iSgQthvD6s/IrG9UA/Jsur0tPkXtrecU8wQZ9Q8jNHaZK5/4GomPptP7B3xUGku8BIyuq Mjn4xKxjXKvVtHxNRHhOyxqBhx0GNPyEXQlPqwvSDiEBVk7ls8vRLTbqdyW5qYm7HGTYiMBMGQBQSS7ZgxqZOyxIsm0aS5 3nEt 8oN2kOnPINj13nzED/UMT0UVFIJkeoz4lpBN32vVFVzHT88XzIiWPfVNLl5s2L9b3dskYUEEKqhU1Fe7f35jWil8VWUUaLCtHkMMHAWSKeWJDWrlse88/CHfMnHp7Up/6MFFCaTRdbt7Ekc8HEHCgPpkeVeOjWy3ulu2vNc8mt8oaJD8Zq2IJFn7yW0Miokms7JaTra7hXNAOAAMGzi1OABSFVOP6uOoRj/oENIEeL1io9sQnmis/LV6QENTMVWjHt/1/EswmkjccO5rSeZKDImLEi//aq3J7f8lKqy6VMIelgQmVF FK0vyQ0psMRcWAXxJCy1 74 6K3Ehh2XGj9DH8LaHS1LtJ49p6J6Gv3tHPMobLgSpw0uqxfaP5Z6tdyjakXdZKOp1TBSaB23kVaOrWa GaEW8q/lHqx3LoON8pERuiTOcLdTcB7F60rX/SyShNlgb8ZUEjA/KRKi7j25 wqJiT04GHXlcskZ2hKr83t8lGdMm2qmQLoCqXnd/sEa9WAoHQy9uYfUB1wbVcmXJg59v23Z4ddt8PGe89xvzZ9/FO0eh0e oau293TeZuYsrcQwHpDxIxkwdJM8Rv3bkyiF3vRNI3ohGOFXXacoCjRs3kFPhAUkv h8Eft3VVAEED6yrI nKeNLZ QiEYbhekzF/SPJaG3yIpLBvIXC45R2IdLEbW4dT3/lchJrDNUQqa8IwL eI2ZD9n7vnNEnxC2LdQrIkeUDBdwZzOHUs pwCDX2GUIhvrNf17N1irVJE3B7b xey2fe3qeTWTk5UQWV/cR P/9P2Fe9Zt6rLaGvh/spnkj3E8HQGvfTJH1ov28BZ7BfJ4z4xRCnNCo0Z5M6ZDCA8VWBNYf5XprGTJlnLsY8J9ItR1rSkqo4usnUpC2e3xpSY0hbq3L/EJHO1xEfck NnYaVHwqni oiW9/A="
+                "value": "GET"
               }
             ]
+          },
+          "response": {
+            "status": 302,
+            "body": "\u003c!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"\u003e\n\u003chtml\u003e\u003chead\u003e\n\u003ctitle\u003e302 Found\u003c/title\u003e\n\u003c/head\u003e\u003cbody\u003e\n\u003ch1\u003eFound\u003c/h1\u003e\n\u003cp\u003eThe document has moved \u003ca href=\"https://fuscdrmsmc359-login.us.oracle.com:443/oam/server/obrareq.cgi?encquery%3DOXb%2FAUK0c47z3XGkuAdr0lsWbZ6V7gVOvQx9HzmBPA2mQfYppebcMQp04DTDJczKD0n9%2FIW8bUaDQRZ1%2FA9fsKK9cFAedZ4IKkZJcH7NSwAIEm8MMT9E9ys3IzKaBbknAeXOIzdQkLC1RQJq0kEpSGzE7opcP3gpUCSunwriII5bw2vqqlJjS9iDopYVCC7kNFgikunX56vZ803orgMyTzGU%2BH8oun8oFeDnh5BcaY%2BKhgNJplmrfU764eGn8oO37iaRCr%2FUtq5JEPLO0tt3B6OrHj6KalrMH7lVHk9e0k7%2BM214ByXc4qr0bYgZFrJyL24mdVP2ed5WsdfhnF4KtVT4K5DFnxGmr9Log%2FXwX%2Fg%3D%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3D925a61f403a65b14c1ebc799e0ba87271505c0b3\u0026amp;ECID-Context=1.005rodRWsWm1nZk_GxO5yf0000RI001MoQ%3BkXjE\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003c/body\u003e\u003c/html\u003e\n",
+            "encodedBody": false,
+            "headers": {
+              "Date": ["Wed, 18 May 2022 14:48:59 GMT"]
+            },
+            "templated": false
           }
         },
-        "response": {
-          "status": 302,
-          "body": "\u003c!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"\u003e\n\u003chtml\u003e\u003chead\u003e\n\u003ctitle\u003e302 Found\u003c/title\u003e\n\u003c/head\u003e\u003cbody\u003e\n\u003ch1\u003eFound\u003c/h1\u003e\n\u003cp\u003eThe document has moved \u003ca href=\"/fscmUI/redwood/service\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003c/body\u003e\u003c/html\u003e\n",
-          "encodedBody": false,
-          "headers": {
-            "Connection": ["Keep-Alive"],
-            "Content-Length": ["207"],
-            "Content-Type": ["text/html; charset=iso-8859-1"],
-            "Date": ["Wed, 18 May 2022 14:49:08 GMT"],
-            "Hoverfly": ["Was-Here"],
-            "Keep-Alive": ["timeout=61, max=100"],
-            "Location": ["/fscmUI/redwood/service"],
-            "Referrer-Policy": ["same-origin"],
-            "Set-Cookie": [
-              "OAMRequestContext_fuscdrmsmc359-fa-ext.us.oracle.com_443_4e3567=;expires=thursday, 01-jan-1970 01:00:00 gmt; httponly; secure; samesite=none; path=/",
-              "OAMAuthnCookie_fuscdrmsmc359-fa-ext.us.oracle.com_443=b3dd3a0f86d5f1864ba05759053e84359063b74b%7EFcthir5jv5%2BO2JXvGB5edFwGGjJ4g6ZJH7awbu1hESassRdv7FJrCgI0zqfl6wzGrnsXZc0aVGX9d6AYRHDWsF54DKh8ka9rbd3UKp6DkI8iHGDSvlB0JM1hjj7PQ75jxPh8PSrMk4cUN1gncjGlGZOZDcekFKCexk4KY67BcYaQw27j2q5zDpBy3FoSfsu9o9caPZFhCdRzJ7F5J45gjNY2G5ohd%2BRVvMdNSuF4A%2Bgq31xsKtdjWUEl3VeLtbbQuhGUXAHOhVq1QrBt1wfQp9r9LQPBDU6N11hKLOPW4%2BeVB01M9mdaECZeKlj2FwVPIF5aSozCL2BVPMXykK2gtXwmiO2leypXuJILUnFENz2dma9cSpFnnUvoquVfEm3A0a2nbwoDN5tvqYIyDgpjR1KOgdKof%2FvnRpBszwiGOl8F88ovw%2FNVPL9%2FN30tL75SJgUWNMcyRrqaU%2BERxsGi5h6K6BSFJ7eZenME8i4igYCSsE5P1iSHDnt1EtKgODNRHGRFWN%2FH7o1y5InF99je%2FRg7zyqqKEmq8ZX%2B5VAP1cRJzKk3BVEyXyGQUD8P%2Fs7xbhLh%2FPpijL23flGOl0v8FguNmQFg05Lbto17xE4rCPo%3D;httponly; secure; samesite=none; path=/"
+        {
+          "request": {
+            "path": [
+              {
+                "matcher": "exact",
+                "value": "/obrar.cgi"
+              }
             ],
-            "X-Content-Type-Options": ["nosniff"]
+            "method": [
+              {
+                "matcher": "exact",
+                "value": "GET"
+              }
+            ]
           },
-          "templated": false
+          "response": {
+            "status": 302,
+            "body": "\u003c!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"\u003e\n\u003chtml\u003e\u003chead\u003e\n\u003ctitle\u003e302 Found\u003c/title\u003e\n\u003c/head\u003e\u003cbody\u003e\n\u003ch1\u003eFound\u003c/h1\u003e\n\u003cp\u003eThe document has moved \u003ca href=\"/fscmUI/redwood/service\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003c/body\u003e\u003c/html\u003e\n",
+            "encodedBody": false,
+            "headers": {
+              "Date": ["Wed, 18 May 2022 14:49:08 GMT"]
+            }
+          }
         }
+      ],
+      "globalActions": {
+        "delays": [],
+        "delaysLogNormal": []
       }
-    ],
-    "globalActions": {
-      "delays": [],
-      "delaysLogNormal": []
+    },
+    "meta": {
+      "schemaVersion": "v5.1",
+      "hoverflyVersion": "v1.3.2",
+      "timeExported": "2022-05-18T20:22:27+05:30"
     }
-  },
-  "meta": {
-    "schemaVersion": "v5.1",
-    "hoverflyVersion": "v1.3.2",
-    "timeExported": "2022-05-18T20:22:27+05:30"
   }
-}
